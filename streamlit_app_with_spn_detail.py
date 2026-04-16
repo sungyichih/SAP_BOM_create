@@ -730,7 +730,7 @@ if process:
             )
 
         except Exception as e:
-            st.error(f"Processing failed: {e}')
+            st.error(f"Processing failed: {e}")
 """
 
 path = Path("/mnt/data/streamlit_app_with_spn_detail_v2.py")
